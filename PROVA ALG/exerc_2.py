@@ -9,7 +9,7 @@ if valor_vendas <= 1500:
     salario_total = salario_fixo + comissao
     print (f"O salário total é: R${salario_total}")
 
-elif valor_vendas > 1500:
+elif valor_vendas:
     comissao = valor_vendas * comissao2
     salario_total = salario_fixo + comissao
     print (f"O salário total é: R${salario_total}")
