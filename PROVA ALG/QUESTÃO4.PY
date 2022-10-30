@@ -1,5 +1,5 @@
 import random
-from pydantic import NumberNotGtError
+
 maiorSeqCresc = int(1)
 maiorSeqConsec = int(1)
 maiorSeqCrescTotal = int(0)
